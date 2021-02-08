@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="repository.kltv" name="KodiLiveTV Addon Repository" version="1.0.0" provider-name="KLTV">
+		<extension point="xbmc.addon.repository" name="KodiLiveTV Addon Repository">
+			<dir>
+				<info compressed="false">https://KodiLiveTV.github.io/repo/addons.xml</info>
+				<checksum>https://KodiLiveTV.github.io/repo/addons.xml.md5</checksum>
+				<datadir zip="true">https://KodiLiveTV.github.io/repo/</datadir>
+				<hashes>true</hashes>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>KodiLiveTV Repository</summary>
+			<description>The official repo of KodiLiveTV.</description>
+			<disclaimer>KodiLiveTV did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+			<platform>all</platform>
+			<forum>https://t.me/kodilivetv</forum>
+			<telegram>https://t.me/kodilivetv</telegram>
+			<website>https://KodiLiveTV.github.io/</website>
+		</extension>
+	</addon>
+	<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV Group">
+		<requires>
+			<import addon="xbmc.python" version="2.5.0"/>
+			<import addon="xbmc.addon" version="13.0.0" />
+			<import addon="script.module.requests" version="2.9.1" />
+			<import addon="script.module.simplejson" version="3.3.0" />
+			<import addon="script.module.beautifulsoup4" version="4.3.2"/>
+			<import addon="script.module.html5lib" version="0.999.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">Kodi Live TV - the free kodi add-on</summary>
+			<description lang="en">Kodi Live TV - the free kodi add-on
+Plugin to watch free IPTV worldwide
+
+f4m Proxy part is fork of f4mProxy by Shani
+Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
+Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
+			</description>
+			<forum>https://t.me/kodilivetv</forum>
+			<website>https://KodiLiveTV.github.io/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<screenshot>resources/screenshot/screenshot1.png</screenshot>
+				<screenshot>resources/screenshot/screenshot2.png</screenshot>
+				<screenshot>resources/screenshot/screenshot3.png</screenshot>
+			</assets>
+			<news>
+2.6.3 - New Repo, restore auto updates
+			</news>
+		</extension>
+	</addon>
+</addons>
