@@ -55,4 +55,31 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
 			</news>
 		</extension>
 	</addon>
+	
+	<addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="0.0.1">
+		<requires></requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">World Live TV Helper - for free IPTV channel</summary>
+			<assets>
+				<icon>logo.png</icon>
+				<fanart>logo.png</fanart>
+				<screenshot>logo.png</screenshot>
+				<screenshot>logo.png</screenshot>
+				<screenshot>logo.png</screenshot>
+			</assets>
+			<news></news>
+			<description lang="it"></description>
+			<disclaimer></disclaimer>
+			<platform>all</platform>
+			<license>GNU GPL v3</license>
+			<forum>https://t.me/kodilivetv</forum>
+			<website>https://KodiLiveTV.github.io/</website>
+			<source></source>
+		</extension>
+		<extension point="xbmc.service" library="service.py" start="login|startup"></extension>
+	</addon>
 </addons>
