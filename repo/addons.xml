@@ -19,6 +19,7 @@
 			<website>https://KodiLiveTV.github.io/</website>
 		</extension>
 	</addon>
+
 	<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV Group">
 		<requires>
 			<import addon="xbmc.python" version="2.5.0"/>
@@ -56,7 +57,7 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
 		</extension>
 	</addon>
 	
-	<addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="0.0.1">
+	<addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="0.0.1" provider-name="KLTV Group">
 		<requires></requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>video</provides>
