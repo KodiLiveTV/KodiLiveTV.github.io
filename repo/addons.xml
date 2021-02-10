@@ -79,6 +79,5 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
 			<news></news>
 			<disclaimer></disclaimer>
 		</extension>
-		<extension point="xbmc.service" library="service.py" start="login|startup"></extension>
 	</addon>
 </addons>
