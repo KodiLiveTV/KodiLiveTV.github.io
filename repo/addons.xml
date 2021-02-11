@@ -19,7 +19,6 @@
 			<website>https://KodiLiveTV.github.io/</website>
 		</extension>
 	</addon>
-
 	<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV Group">
 		<requires>
 			<import addon="xbmc.python" version="2.5.0"/>
@@ -56,28 +55,36 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
 			</news>
 		</extension>
 	</addon>
-	
-	<addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="0.0.1" provider-name="KLTV Group">
+	<addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="0.0.2">
 		<requires></requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>video</provides>
 		</extension>
+		<extension point="kodi.context.item">
+			<menu id="kodi.core.main">
+				<item library="switch.py">
+					<label>[B]Seleziona Lista[/B]</label>
+					<visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+				</item>
+			</menu>
+		</extension>
 		<extension point="xbmc.addon.metadata">
 			<platform>all</platform>
-			<license>GNU GPL v3</license>
 			<summary lang="en">World Live TV Helper - for free IPTV channel</summary>
-			<description lang="en"></description>
-			<forum>https://t.me/kodilivetv</forum>
-			<website>https://KodiLiveTV.github.io/</website>
 			<assets>
-				<icon>logo.png</icon>
-				<fanart>logo.png</fanart>
-				<screenshot>logo.png</screenshot>
-				<screenshot>logo.png</screenshot>
-				<screenshot>logo.png</screenshot>
+				<icon>resources/logo.png</icon>
+				<fanart>resources/background.png</fanart>
+				<screenshot>resources/background.png</screenshot>
+				<screenshot>resources/background.png</screenshot>
+				<screenshot>resources/background.png</screenshot>
 			</assets>
 			<news></news>
+			<description lang="it"></description>
 			<disclaimer></disclaimer>
+			<license>GNU GPL v3</license>
+			<forum>https://t.me/kodilivetv</forum>
+			<website>https://KodiLiveTV.github.io/</website>
+			<source></source>
 		</extension>
 	</addon>
 </addons>
