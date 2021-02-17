@@ -1,0 +1,4 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-chno=1 channel-number=1 tvg-id="rai1" tvg-name="Rai 1" group-title="WLTV",Rai 1
+plugin://plugin.video.wltvhelper/?play/rai/Rai 1
