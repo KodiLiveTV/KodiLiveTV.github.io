@@ -243,7 +243,7 @@ http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/master.m3u8
 http://wma05.fluidstream.net/KKTV01/livestream/playlist.m3u8
 #EXTINF:-1 tvg-chno=1062 tvg-id="radiopiterpantv" tvg-name="Radio Piterpan TV"  group-title="Radio",Radio Piterpan TV
 https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/chunklist_w1502503537.m3u8
-#EXTINF:-1 tvg-chno=1063 tvg-id="radionorbatv" tvg-name="Radio Norba TV"  group-title="Radio",Radio Norba TV
+#EXTINF:-1 tvg-chno=1063 tvg-id="radionorbatv" tvg-name="Radio Norba TV"  tvg-logo="https://www.medimex.it/wp-content/uploads/2019/05/SISTEMA-RADIONORBA-Nero.png" group-title="Radio",Radio Norba TV
 https://flash7.xdevel.com/norbatv/smil:norbatv.smil/chunklist_w1667854212_b864000_slita.m3u8
 
 #EXTINF:-1 tvg-chno=1065 tvg-id="radioradiotv" tvg-name="Radio Radio TV"  group-title="Radio",Radio Radio TV
