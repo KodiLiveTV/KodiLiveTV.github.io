@@ -1,4 +1,3 @@
-#EXTM3U
 
 #EXTINF:-1 tvg-chno=1000 tvg-id="Action Movies" tvg-name="Action Movies"  tvg-logo="https://i.imgur.com/uMcwx2p.jpg" group-title="SamsungTV",Action Movies
 https://rakuten-actionmovies-6-it.samsung.wurl.com/manifest/playlist.m3u8
